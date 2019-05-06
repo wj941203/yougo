@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/logs/main"  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#abf28f",
+    "navigationBarTitleText": "优购",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#333",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#ea4451",
+    "borderStyle": "black",
+
+    "list": [{
+      "text": "home",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/icon_home@3x.png",
+      "selectedIconPath": "static/tabs/icon_home_active@3x.png"
+    }, {
+      "text": "item",
+      "pagePath": "pages/logs/main",
+      "iconPath": "static/tabs/icon_category@3x.png",
+      "selectedIconPath": "static/tabs/icon_category_active@3x.png"
+    },
+    {
+      "text": "cart",
+      "pagePath": "pages/logs/main",
+      "iconPath": "static/tabs/icon_cart@3x.png",
+      "selectedIconPath": "static/tabs/icon_cart_active@3x.png"
+    },
+    {
+      "text": "main",
+      "pagePath": "pages/logs/main",
+      "iconPath": "static/tabs/icon_user@3x.png",
+      "selectedIconPath": "static/tabs/icon_user_active@3x.png"
+    }],
+    "position": "bottom"
+  }
+}
