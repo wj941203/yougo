@@ -5,6 +5,7 @@
       <div class="input-box">
         <input type="text" placeholder="please input your message">
       </div>
+      <div class="result"></div>
     </div>
 
     <!-- banner -->
