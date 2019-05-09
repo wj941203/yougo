@@ -1,8 +1,9 @@
 {
   "pages": [
     "pages/index/main",
-    "pages/logs/main",
-    "pages/category/main"
+    "pages/cart/main",
+    "pages/category/main",
+    "pages/center/main"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -29,13 +30,13 @@
       },
       {
         "text": "cart",
-        "pagePath": "pages/logs/main",
+        "pagePath": "pages/cart/main",
         "iconPath": "static/tabs/icon_cart@3x.png",
         "selectedIconPath": "static/tabs/icon_cart_active@3x.png"
       },
       {
         "text": "main",
-        "pagePath": "pages/logs/main",
+        "pagePath": "pages/center/main",
         "iconPath": "static/tabs/icon_user@3x.png",
         "selectedIconPath": "static/tabs/icon_user_active@3x.png"
       }

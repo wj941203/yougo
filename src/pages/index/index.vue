@@ -1,12 +1,7 @@
 <template>
   <div>
     <!-- search -->
-    <div class="search">
-      <div class="input-box">
-        <input type="text" placeholder="please input your message">
-      </div>
-      <div class="result"></div>
-    </div>
+    <search></search>
 
     <!-- banner -->
     <swiper class="banner" autoplay indicator-dots interval="2000" circular>
@@ -23,7 +18,7 @@
     <div class="nav">
       <div class="public" :key="key" v-for="(list , key ) in navList">
         <navigator
-          :url="list.navigator_url"
+          url="list.navigator_url"
           open-type="navigate"
           hover-class="none">
           <image
@@ -90,7 +85,7 @@
 
 <script>
 import request from '@/utils/request'
-
+import search from '@/components/search'
 export default {
   data(){
 return{
@@ -99,6 +94,9 @@ return{
   floorList:[],
   isTop:true
 }
+  },
+  components:{
+    search
   },
   methods:{
     async getBanner () {
